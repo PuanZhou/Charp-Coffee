@@ -1,0 +1,283 @@
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.csprojAssemblyReference.cache
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.pdb
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\期中專題\CSPCoffee\GIT\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.pdb
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\Users\User\Desktop\GIT\GIT\CSPCoffee\obj\Debug\CSPCoffee.CompareFrm.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CompareFrm.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.pdb
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_Big.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_small.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationTital.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationUSControl.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FormConstellation.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.IntroduceUsControl.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.NewsControl.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Photo_Big.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Car1.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl1.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl2.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CouponControl1.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmLogin.resources
+C:\Users\User\Desktop\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmMemCenter.resources
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\GIT\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csprojAssemblyReference.cache
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_Big.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_small.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationTital.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationUSControl.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FormConstellation.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.IntroduceUsControl.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.NewsControl.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Photo_Big.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Car1.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl1.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl2.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CompareFrm.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CouponControl1.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmLogin.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmMemCenter.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\GIT\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.pdb
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_Big.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_small.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationTital.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationUSControl.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FormConstellation.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.IntroduceUsControl.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.NewsControl.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Photo_Big.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Car1.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl1.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl2.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CompareFrm.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CouponControl1.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmLogin.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmMemCenter.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.pdb
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmForget.resources
+C:\Users\Student\Desktop\final\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.QuestionnaireFrm.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_Big.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_small.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationTital.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationUSControl.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FormConstellation.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.IntroduceUsControl.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.NewsControl.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Photo_Big.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Car1.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl1.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl2.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CompareFrm.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CouponControl1.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmForget.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmLogin.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmMemCenter.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.QuestionnaireFrm.resources
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\Users\Student\Desktop\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.pdb
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_Big.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_small.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationTital.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationUSControl.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FormConstellation.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.IntroduceUsControl.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.NewsControl.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Photo_Big.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Car1.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl1.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl2.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CompareFrm.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CouponControl1.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmForget.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmLogin.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmMemCenter.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.QuestionnaireFrm.resources
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\Users\Student\Desktop\期中專題\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.pdb
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe.config
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.exe
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\CSPCoffee.pdb
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Form1.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_Big.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Box_small.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationTital.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.ConstellationUSControl.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FormConstellation.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.IntroduceUsControl.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.NewsControl.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Photo_Big.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Car1.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl1.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CarControl2.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CompareFrm.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoReControl.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CouponControl1.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmComment.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmForget.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmLogin.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmMemCenter.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.FrmOLService.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.CoControl.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.PDcontrol.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Productdetail.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.Properties.Resources.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.QuestionnaireFrm.resources
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.GenerateResource.cache
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.csproj.CopyComplete
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.exe
+C:\Users\User\Desktop\0512 FINAL Charp Coffee\Charp Coffee\CSPCoffee\CSPCoffee\obj\Debug\CSPCoffee.pdb

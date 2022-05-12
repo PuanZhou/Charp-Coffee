@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CoffeeModelStoreContainer" CdmEntityContainer="CoffeeEntities1">
+    <FunctionImportMapping FunctionImportName="InsertMember" FunctionName="CoffeeModel.Store.InsertMember" />
+    <FunctionImportMapping FunctionImportName="MemLogin" FunctionName="CoffeeModel.Store.MemLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CoffeeModel.MemLogin_Result">
+          <ScalarProperty Name="MemberPhone" ColumnName="MemberPhone" />
+          <ScalarProperty Name="MemberPassword" ColumnName="MemberPassword" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="CoffeeModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="CoffeeModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="CoffeeModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="CoffeeModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CoffeeModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="CoffeeModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CoffeeModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="CoffeeModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="CoffeeModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="CoffeeModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="AdminPassword" ColumnName="AdminPassword" />
+          <ScalarProperty Name="AdminName" ColumnName="AdminName" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnswerTableDetails">
+      <EntityTypeMapping TypeName="CoffeeModel.AnswerTableDetail">
+        <MappingFragment StoreEntitySet="AnswerTableDetails">
+          <ScalarProperty Name="Q7" ColumnName="Q7" />
+          <ScalarProperty Name="Q6" ColumnName="Q6" />
+          <ScalarProperty Name="Q5" ColumnName="Q5" />
+          <ScalarProperty Name="Q4" ColumnName="Q4" />
+          <ScalarProperty Name="Q3" ColumnName="Q3" />
+          <ScalarProperty Name="Q2" ColumnName="Q2" />
+          <ScalarProperty Name="Q1" ColumnName="Q1" />
+          <ScalarProperty Name="QuestionTableDetailsID" ColumnName="QuestionTableDetailsID" />
+          <ScalarProperty Name="AnswerTableDetailsID" ColumnName="AnswerTableDetailsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="CoffeeModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="CategoriesName" ColumnName="CategoriesName" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Coffees">
+      <EntityTypeMapping TypeName="CoffeeModel.Coffee">
+        <MappingFragment StoreEntitySet="Coffee">
+          <ScalarProperty Name="RainForest" ColumnName="RainForest" />
+          <ScalarProperty Name="ConstellationID" ColumnName="ConstellationID" />
+          <ScalarProperty Name="PackageID" ColumnName="PackageID" />
+          <ScalarProperty Name="ProcessID" ColumnName="ProcessID" />
+          <ScalarProperty Name="RoastingID" ColumnName="RoastingID" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CoffeeName" ColumnName="CoffeeName" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CoffeeID" ColumnName="CoffeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="CoffeeModel.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="Star" ColumnName="Star" />
+          <ScalarProperty Name="CommentDescription" ColumnName="CommentDescription" />
+          <ScalarProperty Name="CommentParentID" ColumnName="CommentParentID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constellations">
+      <EntityTypeMapping TypeName="CoffeeModel.Constellation">
+        <MappingFragment StoreEntitySet="Constellation">
+          <ScalarProperty Name="ConstellationProductID" ColumnName="ConstellationProductID" />
+          <ScalarProperty Name="ConstellationPhoto" ColumnName="ConstellationPhoto" />
+          <ScalarProperty Name="ConstellationDescription" ColumnName="ConstellationDescription" />
+          <ScalarProperty Name="ConstellationName" ColumnName="ConstellationName" />
+          <ScalarProperty Name="ConstellationID" ColumnName="ConstellationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Continents">
+      <EntityTypeMapping TypeName="CoffeeModel.Continent">
+        <MappingFragment StoreEntitySet="Continent">
+          <ScalarProperty Name="ContinentName" ColumnName="ContinentName" />
+          <ScalarProperty Name="ContinentID" ColumnName="ContinentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="CoffeeModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="ContinentID" ColumnName="ContinentID" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Coupons">
+      <EntityTypeMapping TypeName="CoffeeModel.Coupon">
+        <MappingFragment StoreEntitySet="Coupon">
+          <ScalarProperty Name="CouponDeadline" ColumnName="CouponDeadline" />
+          <ScalarProperty Name="CouponStartDate" ColumnName="CouponStartDate" />
+          <ScalarProperty Name="Condition" ColumnName="Condition" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="CouponName" ColumnName="CouponName" />
+          <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CouponDetails">
+      <EntityTypeMapping TypeName="CoffeeModel.CouponDetail">
+        <MappingFragment StoreEntitySet="CouponDetail">
+          <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="CouponDetailsID" ColumnName="CouponDetailsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IntroducePhotos">
+      <EntityTypeMapping TypeName="CoffeeModel.IntroducePhoto">
+        <MappingFragment StoreEntitySet="IntroducePhotos">
+          <ScalarProperty Name="IntroducePhoto1" ColumnName="IntroducePhoto" />
+          <ScalarProperty Name="IntroduceID" ColumnName="IntroduceID" />
+          <ScalarProperty Name="IntroducePhotosID" ColumnName="IntroducePhotosID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Introduces">
+      <EntityTypeMapping TypeName="CoffeeModel.Introduce">
+        <MappingFragment StoreEntitySet="Introduces">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IntroducesName" ColumnName="IntroducesName" />
+          <ScalarProperty Name="IntroducesID" ColumnName="IntroducesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="CoffeeModel.Member">
+        <MappingFragment StoreEntitySet="Members">
+          <ScalarProperty Name="BlackList" ColumnName="BlackList" />
+          <ScalarProperty Name="MemberPhoto" ColumnName="MemberPhoto" />
+          <ScalarProperty Name="MemberBirthDay" ColumnName="MemberBirthDay" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="MemberAddress" ColumnName="MemberAddress" />
+          <ScalarProperty Name="MemberPassword" ColumnName="MemberPassword" />
+          <ScalarProperty Name="MemberEMail" ColumnName="MemberEMail" />
+          <ScalarProperty Name="ShoppingCarID" ColumnName="ShoppingCarID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="MemberPhone" ColumnName="MemberPhone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MyLikes">
+      <EntityTypeMapping TypeName="CoffeeModel.MyLike">
+        <MappingFragment StoreEntitySet="MyLike">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="LikeID" ColumnName="LikeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="CoffeeModel.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="NewsOverTime" ColumnName="NewsOverTime" />
+          <ScalarProperty Name="NewsStartTime" ColumnName="NewsStartTime" />
+          <ScalarProperty Name="NewsDescription" ColumnName="NewsDescription" />
+          <ScalarProperty Name="NewsID" ColumnName="NewsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="CoffeeModel.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetails">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="OrderDetailsID" ColumnName="OrderDetailsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="CoffeeModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+          <ScalarProperty Name="OrderAddress" ColumnName="OrderAddress" />
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+          <ScalarProperty Name="OrderStateID" ColumnName="OrderStateID" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderStates">
+      <EntityTypeMapping TypeName="CoffeeModel.OrderState">
+        <MappingFragment StoreEntitySet="OrderStates">
+          <ScalarProperty Name="OrderState1" ColumnName="OrderState" />
+          <ScalarProperty Name="OrderStateID" ColumnName="OrderStateID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Packages">
+      <EntityTypeMapping TypeName="CoffeeModel.Package">
+        <MappingFragment StoreEntitySet="Package">
+          <ScalarProperty Name="PackageName" ColumnName="PackageName" />
+          <ScalarProperty Name="PackageID" ColumnName="PackageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="CoffeeModel.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="Payment1" ColumnName="Payment" />
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhotoDetails">
+      <EntityTypeMapping TypeName="CoffeeModel.PhotoDetail">
+        <MappingFragment StoreEntitySet="PhotoDetails">
+          <ScalarProperty Name="PhotoID" ColumnName="PhotoID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="PhotoDetailsID" ColumnName="PhotoDetailsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Photos">
+      <EntityTypeMapping TypeName="CoffeeModel.Photo">
+        <MappingFragment StoreEntitySet="Photos">
+          <ScalarProperty Name="Photo1" ColumnName="Photo" />
+          <ScalarProperty Name="PhotoID" ColumnName="PhotoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Processes">
+      <EntityTypeMapping TypeName="CoffeeModel.Process">
+        <MappingFragment StoreEntitySet="Process">
+          <ScalarProperty Name="ProcessName" ColumnName="ProcessName" />
+          <ScalarProperty Name="ProcessID" ColumnName="ProcessID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="CoffeeModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Star" ColumnName="Star" />
+          <ScalarProperty Name="TakeDown" ColumnName="TakeDown" />
+          <ScalarProperty Name="ClickCount" ColumnName="ClickCount" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Qquestionnaires">
+      <EntityTypeMapping TypeName="CoffeeModel.Qquestionnaire">
+        <MappingFragment StoreEntitySet="Qquestionnaire">
+          <ScalarProperty Name="QuestionTableID" ColumnName="QuestionTableID" />
+          <ScalarProperty Name="CouponID" ColumnName="CouponID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="QquestionnaireID" ColumnName="QquestionnaireID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionTables">
+      <EntityTypeMapping TypeName="CoffeeModel.QuestionTable">
+        <MappingFragment StoreEntitySet="QuestionTable">
+          <ScalarProperty Name="QuestionTableDetailsID" ColumnName="QuestionTableDetailsID" />
+          <ScalarProperty Name="QuestionTableName" ColumnName="QuestionTableName" />
+          <ScalarProperty Name="QuestionTableID" ColumnName="QuestionTableID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionTableDetails">
+      <EntityTypeMapping TypeName="CoffeeModel.QuestionTableDetail">
+        <MappingFragment StoreEntitySet="QuestionTableDetails">
+          <ScalarProperty Name="A7_5" ColumnName="A7-5" />
+          <ScalarProperty Name="A7_4" ColumnName="A7-4" />
+          <ScalarProperty Name="A7_3" ColumnName="A7-3" />
+          <ScalarProperty Name="A7_2" ColumnName="A7-2" />
+          <ScalarProperty Name="A7_1" ColumnName="A7-1" />
+          <ScalarProperty Name="Q7" ColumnName="Q7" />
+          <ScalarProperty Name="A6_5" ColumnName="A6-5" />
+          <ScalarProperty Name="A6_4" ColumnName="A6-4" />
+          <ScalarProperty Name="A6_3" ColumnName="A6-3" />
+          <ScalarProperty Name="A6_2" ColumnName="A6-2" />
+          <ScalarProperty Name="A6_1" ColumnName="A6-1" />
+          <ScalarProperty Name="Q6" ColumnName="Q6" />
+          <ScalarProperty Name="A5_4" ColumnName="A5-4" />
+          <ScalarProperty Name="A5_3" ColumnName="A5-3" />
+          <ScalarProperty Name="A5_2" ColumnName="A5-2" />
+          <ScalarProperty Name="A5_1" ColumnName="A5-1" />
+          <ScalarProperty Name="Q5" ColumnName="Q5" />
+          <ScalarProperty Name="A4_4" ColumnName="A4-4" />
+          <ScalarProperty Name="A4_3" ColumnName="A4-3" />
+          <ScalarProperty Name="A4_2" ColumnName="A4-2" />
+          <ScalarProperty Name="A4_1" ColumnName="A4-1" />
+          <ScalarProperty Name="Q4" ColumnName="Q4" />
+          <ScalarProperty Name="A3_7" ColumnName="A3-7" />
+          <ScalarProperty Name="A3_6" ColumnName="A3-6" />
+          <ScalarProperty Name="A3_5" ColumnName="A3-5" />
+          <ScalarProperty Name="A3_4" ColumnName="A3-4" />
+          <ScalarProperty Name="A3_3" ColumnName="A3-3" />
+          <ScalarProperty Name="A3_2" ColumnName="A3-2" />
+          <ScalarProperty Name="A3_1" ColumnName="A3-1" />
+          <ScalarProperty Name="Q3" ColumnName="Q3" />
+          <ScalarProperty Name="A2_5" ColumnName="A2-5" />
+          <ScalarProperty Name="A2_4" ColumnName="A2-4" />
+          <ScalarProperty Name="A2_3" ColumnName="A2-3" />
+          <ScalarProperty Name="A2_2" ColumnName="A2-2" />
+          <ScalarProperty Name="A2_1" ColumnName="A2-1" />
+          <ScalarProperty Name="Q2" ColumnName="Q2" />
+          <ScalarProperty Name="A1_5" ColumnName="A1-5" />
+          <ScalarProperty Name="A1_4" ColumnName="A1-4" />
+          <ScalarProperty Name="A1_3" ColumnName="A1-3" />
+          <ScalarProperty Name="A1_2" ColumnName="A1-2" />
+          <ScalarProperty Name="A1_1" ColumnName="A1-1" />
+          <ScalarProperty Name="Q1" ColumnName="Q1" />
+          <ScalarProperty Name="QuestionTableDetailsID" ColumnName="QuestionTableDetailsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roastings">
+      <EntityTypeMapping TypeName="CoffeeModel.Roasting">
+        <MappingFragment StoreEntitySet="Roasting">
+          <ScalarProperty Name="RoastingName" ColumnName="RoastingName" />
+          <ScalarProperty Name="RoastingID" ColumnName="RoastingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShoppingCars">
+      <EntityTypeMapping TypeName="CoffeeModel.ShoppingCar">
+        <MappingFragment StoreEntitySet="ShoppingCar">
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="ShoppinCarID" ColumnName="ShoppinCarID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShoppingCarDetails">
+      <EntityTypeMapping TypeName="CoffeeModel.ShoppingCarDetail">
+        <MappingFragment StoreEntitySet="ShoppingCarDetail">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductsID" ColumnName="ProductsID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="ShoppingCarDetialsID" ColumnName="ShoppingCarDetialsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="CoffeeModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

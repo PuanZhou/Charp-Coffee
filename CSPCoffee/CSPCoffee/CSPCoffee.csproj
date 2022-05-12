@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9816EEFA-9B3A-45D7-9E6C-58382B09836B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CSPCoffee</RootNamespace>
+    <AssemblyName>CSPCoffee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="07_Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="07_Form1.Designer.cs">
+      <DependentUpon>07_Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\Box_Big.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="28\Box_Big.designer.cs">
+      <DependentUpon>Box_Big.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\Box_small.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="28\Box_small.designer.cs">
+      <DependentUpon>Box_small.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\ConstellationTital.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="28\ConstellationTital.designer.cs">
+      <DependentUpon>ConstellationTital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\ConstellationUSControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="28\ConstellationUSControl.designer.cs">
+      <DependentUpon>ConstellationUSControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\FormConstellation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="28\FormConstellation.designer.cs">
+      <DependentUpon>FormConstellation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\IntroduceUsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="28\IntroduceUsControl.designer.cs">
+      <DependentUpon>IntroduceUsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\NewsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="28\NewsControl.designer.cs">
+      <DependentUpon>NewsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="28\Photo_Big.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="28\Photo_Big.designer.cs">
+      <DependentUpon>Photo_Big.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AnswerTableDetail.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Car1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car1.designer.cs">
+      <DependentUpon>Car1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CarControl1.designer.cs">
+      <DependentUpon>CarControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CarControl2.designer.cs">
+      <DependentUpon>CarControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompareFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareFrm.designer.cs">
+      <DependentUpon>CompareFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoReControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CoReControl.designer.cs">
+      <DependentUpon>CoReControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coffee.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Comment.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Constellation.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Continent.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Coupon.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CouponControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CouponControl1.designer.cs">
+      <DependentUpon>CouponControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CouponDetail.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CSPModel1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSPModel1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CSPModel1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CSPModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSPModel1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmComment.Designer.cs">
+      <DependentUpon>FrmComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForget.designer.cs">
+      <DependentUpon>FrmForget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMemCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemCenter.designer.cs">
+      <DependentUpon>FrmMemCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Introduce.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IntroducePhoto.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Member.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MemLogin_Result.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MyLike.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOLService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOLService.Designer.cs">
+      <DependentUpon>FrmOLService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="News.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetail.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderState.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Package.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CoControl.designer.cs">
+      <DependentUpon>CoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDcontrol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PDcontrol.designer.cs">
+      <DependentUpon>PDcontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Photo.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoDetail.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Process.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Productdetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productdetail.designer.cs">
+      <DependentUpon>Productdetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Qquestionnaire.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionnaireFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionnaireFrm.designer.cs">
+      <DependentUpon>QuestionnaireFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionTable.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionTableDetail.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Roasting.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCar.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCarDetail.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>CSPModel1.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="07_Form1.resx">
+      <DependentUpon>07_Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\Box_Big.resx">
+      <DependentUpon>Box_Big.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\Box_small.resx">
+      <DependentUpon>Box_small.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\ConstellationTital.resx">
+      <DependentUpon>ConstellationTital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\ConstellationUSControl.resx">
+      <DependentUpon>ConstellationUSControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\FormConstellation.resx">
+      <DependentUpon>FormConstellation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\IntroduceUsControl.resx">
+      <DependentUpon>IntroduceUsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\NewsControl.resx">
+      <DependentUpon>NewsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="28\Photo_Big.resx">
+      <DependentUpon>Photo_Big.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car1.resx">
+      <DependentUpon>Car1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarControl1.resx">
+      <DependentUpon>CarControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarControl2.resx">
+      <DependentUpon>CarControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompareFrm.resx">
+      <DependentUpon>CompareFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoReControl.resx">
+      <DependentUpon>CoReControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CouponControl1.resx">
+      <DependentUpon>CouponControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmComment.resx">
+      <DependentUpon>FrmComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForget.resx">
+      <DependentUpon>FrmForget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemCenter.resx">
+      <DependentUpon>FrmMemCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOLService.resx">
+      <DependentUpon>FrmOLService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoControl.resx">
+      <DependentUpon>CoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDcontrol.resx">
+      <DependentUpon>PDcontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productdetail.resx">
+      <DependentUpon>Productdetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionnaireFrm.resx">
+      <DependentUpon>QuestionnaireFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="CSPModel1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CSPModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="CSPModel1.edmx.diagram">
+      <DependentUpon>CSPModel1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSPModel1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CSPModel1.edmx</DependentUpon>
+      <LastGenOutput>CSPModel1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="CSPModel1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CSPModel1.edmx</DependentUpon>
+      <LastGenOutput>CSPModel1.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\list-is-empty %281%291.png" />
+    <None Include="Resources\survey.png" />
+    <None Include="Resources\pngwing.com %281%29.png" />
+    <None Include="Resources\0175.jpg" />
+    <Content Include="Resources\3580168.jpg" />
+    <None Include="Resources\35801681.jpg" />
+    <Content Include="Resources\catMoney.jpg" />
+    <Content Include="Resources\eyeclose.jpg" />
+    <Content Include="Resources\eyeopen.jpg" />
+    <None Include="Resources\pngwing.com %287%29.png" />
+    <None Include="Resources\pngwing.com %288%29.png" />
+    <None Include="Resources\pngwing.com %286%29.png" />
+    <None Include="Resources\pngwing.com %289%29.png" />
+    <None Include="Resources\vector-grunge-stained-background.jpg" />
+    <None Include="Resources\list-is-empty %281%29.png" />
+    <None Include="Resources\pngwing.com.png" />
+    <None Include="Resources\pngwing.com %282%29.png" />
+    <None Include="Resources\pngegg %285%29.png" />
+    <None Include="Resources\scope2.jpg" />
+    <None Include="Resources\scope1.jpg" />
+    <None Include="Resources\scope.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

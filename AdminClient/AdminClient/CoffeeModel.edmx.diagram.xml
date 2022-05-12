@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="03ae36a6655d44c89d7f0e21c1da409d" Name="Diagram1">
+        <EntityTypeShape EntityType="CoffeeModel.Admin" Width="1.5" PointX="12.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Category" Width="1.5" PointX="6" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Coffee" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Comment" Width="1.5" PointX="10.5" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Constellation" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Continent" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Country" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Coupon" Width="1.5" PointX="6" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.CouponDetail" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.IntroducePhoto" Width="1.5" PointX="13" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Introduce" Width="1.5" PointX="10.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Member" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.MyLike" Width="1.5" PointX="13.5" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.OrderDetail" Width="1.5" PointX="13.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Order" PointX="11.25" PointY="15.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.OrderState" Width="1.5" PointX="9" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Package" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Payment" Width="1.5" PointX="9" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.PhotoDetail" Width="1.5" PointX="13.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Photo" Width="1.5" PointX="11.25" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Process" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Product" Width="1.5" PointX="8.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Qquestionnaire" Width="1.5" PointX="8.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.Roasting" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.ShoppingCar" Width="1.5" PointX="8.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.ShoppingCarDetail" Width="1.5" PointX="10.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeModel.sysdiagram" Width="1.5" PointX="14.75" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="CoffeeModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Coffee_Constellation" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Coffee_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Coffee_Package" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Coffee_Process" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Coffee_Products1" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Coffee_Roasting1" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Comment_Members" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="CoffeeModel.FK_Comment_Orders" />
+        <AssociationConnector Association="CoffeeModel.FK_Comment_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Country_Continent1" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Products_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_CouponDetail_Coupon" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Qquestionnaire_Coupon" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_CouponDetail_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_IntroducePhotos_Introduces" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_MyLike_Members" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="CoffeeModel.FK_Orders_Members" />
+        <AssociationConnector Association="CoffeeModel.FK_Qquestionnaire_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_ShoppingCar_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_MyLike_Products" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="CoffeeModel.FK_OrderDetails_Orders1" />
+        <AssociationConnector Association="CoffeeModel.FK_OrderDetails_Products1" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="CoffeeModel.FK_Orders_OrderStates" />
+        <AssociationConnector ManuallyRouted="false" Association="CoffeeModel.FK_Orders_Payments" />
+        <AssociationConnector Association="CoffeeModel.FK_PhotoDetails_Photos" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_PhotoDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_ShoppingCarDetail_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_ShoppingCarDetail_ShoppingCar" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeModel.FK_Orders_Coupon" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
