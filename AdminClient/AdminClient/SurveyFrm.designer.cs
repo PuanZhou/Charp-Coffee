@@ -29,9 +29,10 @@ namespace CSPCoffee
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.labTitle = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -49,8 +50,9 @@ namespace CSPCoffee
             // labTitle
             // 
             this.labTitle.AutoSize = true;
+            this.labTitle.BackColor = System.Drawing.Color.Transparent;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labTitle.Location = new System.Drawing.Point(658, 9);
+            this.labTitle.Location = new System.Drawing.Point(885, 9);
             this.labTitle.Name = "labTitle";
             this.labTitle.Size = new System.Drawing.Size(133, 37);
             this.labTitle.TabIndex = 23;
@@ -58,11 +60,12 @@ namespace CSPCoffee
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Location = new System.Drawing.Point(241, 179);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(537, 299);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
@@ -70,9 +73,18 @@ namespace CSPCoffee
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Moccasin;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Linen;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.BurlyWood;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.Location = new System.Drawing.Point(0, 36);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
@@ -84,7 +96,7 @@ namespace CSPCoffee
             this.SurveyNameCombobox.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SurveyNameCombobox.FormattingEnabled = true;
             this.SurveyNameCombobox.Location = new System.Drawing.Point(547, 66);
-            this.SurveyNameCombobox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SurveyNameCombobox.Margin = new System.Windows.Forms.Padding(2);
             this.SurveyNameCombobox.Name = "SurveyNameCombobox";
             this.SurveyNameCombobox.Size = new System.Drawing.Size(120, 22);
             this.SurveyNameCombobox.TabIndex = 25;
@@ -94,6 +106,7 @@ namespace CSPCoffee
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(454, 67);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -105,6 +118,7 @@ namespace CSPCoffee
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(701, 67);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -118,7 +132,7 @@ namespace CSPCoffee
             this.QuestNameCombo.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuestNameCombo.FormattingEnabled = true;
             this.QuestNameCombo.Location = new System.Drawing.Point(748, 66);
-            this.QuestNameCombo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.QuestNameCombo.Margin = new System.Windows.Forms.Padding(2);
             this.QuestNameCombo.Name = "QuestNameCombo";
             this.QuestNameCombo.Size = new System.Drawing.Size(231, 22);
             this.QuestNameCombo.TabIndex = 27;
@@ -128,7 +142,7 @@ namespace CSPCoffee
             // 
             this.button1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button1.Location = new System.Drawing.Point(1007, 53);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 49);
             this.button1.TabIndex = 29;
@@ -138,16 +152,16 @@ namespace CSPCoffee
             // 
             // chartSurvey
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartSurvey.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartSurvey.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chartSurvey.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartSurvey.Legends.Add(legend1);
             this.chartSurvey.Location = new System.Drawing.Point(828, 140);
             this.chartSurvey.Name = "chartSurvey";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartSurvey.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartSurvey.Series.Add(series1);
             this.chartSurvey.Size = new System.Drawing.Size(883, 550);
             this.chartSurvey.TabIndex = 30;
             this.chartSurvey.Text = "chart1";
@@ -157,6 +171,8 @@ namespace CSPCoffee
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1888, 702);
             this.Controls.Add(this.chartSurvey);
             this.Controls.Add(this.button1);
@@ -167,7 +183,7 @@ namespace CSPCoffee
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.labTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SurveyFrm";
             this.Text = "SurveyFrm";
             this.Load += new System.EventHandler(this.SurveyFrm_Load);

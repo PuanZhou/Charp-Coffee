@@ -276,7 +276,7 @@ namespace CSPCoffee
         private void QT1Q3()
         {
             var x = from q in this.db.AnswerTableDetails.AsEnumerable()
-                    group q by QT1A3(q.Q4) into g
+                    group q by QT1A3(q.Q3) into g
                     select new
                     {
                         回答 = g.Key,

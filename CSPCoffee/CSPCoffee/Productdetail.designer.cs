@@ -55,8 +55,8 @@ namespace CSPCoffee
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lbdescription = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.lbdescription = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -307,7 +307,7 @@ namespace CSPCoffee
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.Color.PapayaWhip;
             this.panel1.Location = new System.Drawing.Point(0, 432);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(848, 351);
@@ -358,17 +358,6 @@ namespace CSPCoffee
             this.flowLayoutPanel1.Size = new System.Drawing.Size(614, 103);
             this.flowLayoutPanel1.TabIndex = 31;
             // 
-            // lbdescription
-            // 
-            this.lbdescription.AutoSize = true;
-            this.lbdescription.BackColor = System.Drawing.Color.Transparent;
-            this.lbdescription.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lbdescription.Location = new System.Drawing.Point(81, 0);
-            this.lbdescription.Name = "lbdescription";
-            this.lbdescription.Size = new System.Drawing.Size(51, 19);
-            this.lbdescription.TabIndex = 4;
-            this.lbdescription.Text = "label4";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -379,6 +368,17 @@ namespace CSPCoffee
             this.label8.Size = new System.Drawing.Size(72, 19);
             this.label8.TabIndex = 8;
             this.label8.Text = "產品介紹:";
+            // 
+            // lbdescription
+            // 
+            this.lbdescription.AutoSize = true;
+            this.lbdescription.BackColor = System.Drawing.Color.Transparent;
+            this.lbdescription.Font = new System.Drawing.Font("微軟正黑體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lbdescription.Location = new System.Drawing.Point(81, 0);
+            this.lbdescription.Name = "lbdescription";
+            this.lbdescription.Size = new System.Drawing.Size(51, 19);
+            this.lbdescription.TabIndex = 4;
+            this.lbdescription.Text = "label4";
             // 
             // Productdetail
             // 

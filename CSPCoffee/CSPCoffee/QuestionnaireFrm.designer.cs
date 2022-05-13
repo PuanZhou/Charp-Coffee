@@ -49,7 +49,8 @@ namespace CSPCoffee
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(171, 51);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(133, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 19);
             this.label1.TabIndex = 0;
@@ -57,16 +58,18 @@ namespace CSPCoffee
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(171, 80);
+            this.comboBox1.Location = new System.Drawing.Point(133, 82);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(215, 27);
             this.comboBox1.TabIndex = 1;
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(171, 146);
+            this.comboBox2.Location = new System.Drawing.Point(133, 148);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(215, 27);
             this.comboBox2.TabIndex = 3;
@@ -74,7 +77,8 @@ namespace CSPCoffee
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(171, 117);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(133, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 19);
             this.label2.TabIndex = 2;
@@ -82,8 +86,9 @@ namespace CSPCoffee
             // 
             // comboBox3
             // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(171, 212);
+            this.comboBox3.Location = new System.Drawing.Point(133, 214);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(215, 27);
             this.comboBox3.TabIndex = 5;
@@ -91,7 +96,8 @@ namespace CSPCoffee
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(171, 183);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(133, 185);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 19);
             this.label3.TabIndex = 4;
@@ -99,8 +105,9 @@ namespace CSPCoffee
             // 
             // comboBox4
             // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(171, 278);
+            this.comboBox4.Location = new System.Drawing.Point(133, 280);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(215, 27);
             this.comboBox4.TabIndex = 7;
@@ -108,7 +115,8 @@ namespace CSPCoffee
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(171, 249);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(133, 251);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 19);
             this.label4.TabIndex = 6;
@@ -116,8 +124,9 @@ namespace CSPCoffee
             // 
             // comboBox5
             // 
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(171, 344);
+            this.comboBox5.Location = new System.Drawing.Point(133, 346);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(215, 27);
             this.comboBox5.TabIndex = 9;
@@ -125,7 +134,8 @@ namespace CSPCoffee
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(171, 315);
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(133, 317);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 19);
             this.label5.TabIndex = 8;
@@ -133,8 +143,9 @@ namespace CSPCoffee
             // 
             // comboBox6
             // 
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(171, 410);
+            this.comboBox6.Location = new System.Drawing.Point(133, 412);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(215, 27);
             this.comboBox6.TabIndex = 11;
@@ -142,7 +153,8 @@ namespace CSPCoffee
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(171, 381);
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(133, 383);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 19);
             this.label6.TabIndex = 10;
@@ -150,8 +162,9 @@ namespace CSPCoffee
             // 
             // comboBox7
             // 
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(171, 476);
+            this.comboBox7.Location = new System.Drawing.Point(133, 478);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(215, 27);
             this.comboBox7.TabIndex = 13;
@@ -159,7 +172,8 @@ namespace CSPCoffee
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(171, 447);
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Location = new System.Drawing.Point(133, 449);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 19);
             this.label7.TabIndex = 12;
@@ -167,7 +181,7 @@ namespace CSPCoffee
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(184, 556);
+            this.button1.Location = new System.Drawing.Point(146, 558);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(191, 71);
             this.button1.TabIndex = 14;
@@ -179,6 +193,9 @@ namespace CSPCoffee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BurlyWood;
+            this.BackgroundImage = global::CSPCoffee.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(580, 672);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox7);
@@ -199,7 +216,7 @@ namespace CSPCoffee
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "QuestionnaireFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "QuestionnaireFrm";
+            this.Text = "問卷調查";
             this.Load += new System.EventHandler(this.QuestionnaireFrm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

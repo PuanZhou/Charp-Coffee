@@ -148,6 +148,8 @@ namespace CSPCoffee
                         f1.CreatBanner();
                         f1.flowLayoutPanel1.Controls.Clear();
                         f1.treeView1.CollapseAll();
+                        //coupon
+                        takeCsharpcoupon();
                         this.Close();
                     }
                     else
@@ -169,6 +171,23 @@ namespace CSPCoffee
             else
             {
                 this.labLogErr.Visible = true;
+            }
+        }
+
+        private void takeCsharpcoupon()
+        {
+            var q = this.db.CouponDetails.Any(x => x.MemberID == f1.memberID && x.CouponID == 1);
+            if (!q)
+            {
+                CouponDetail coupon = new CouponDetail
+                {
+                    MemberID = f1.memberID,
+                    CouponID = 1
+                };
+                this.db.CouponDetails.Add(coupon);
+                db.SaveChanges();
+
+                MessageBox.Show("感謝您的支持，已發周年慶送優惠券給您");
             }
         }
 

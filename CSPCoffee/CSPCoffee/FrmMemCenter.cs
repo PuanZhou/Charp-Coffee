@@ -20,12 +20,10 @@ namespace CSPCoffee
             InitializeComponent();
             this.tabMemCen.SelectedIndex = 0;
             LoadMemData();
-            this.splitContainer2.Panel1Collapsed = true;
             labErrHide();
             comBoxYear();
             comboxMonFrom();
             FillCoupon();
-            MonCalSet();
             OrderisNull();
             this.splitConOrder.Panel2Collapsed = true;
             FillLike();
@@ -70,11 +68,7 @@ namespace CSPCoffee
             this.labOrdNull.Visible = false;
         }
 
-        void MonCalSet()
-        {
-            this.monthCalendar1.MinDate = DateTime.Parse($"{DateTime.Now.Year - 100}/{DateTime.Now.Month}/{DateTime.Now.Day}");
-            this.monthCalendar1.MaxDate = DateTime.Parse($"{DateTime.Now.Year - 18}/{DateTime.Now.Month}/{DateTime.Now.Day}");
-        }
+       
 
         string PWHash(TextBox textBox)
         {
@@ -114,25 +108,6 @@ namespace CSPCoffee
             MessageBox.Show(a);
         }
 
-
-        private void labBirth_Click(object sender, EventArgs e)
-        {
-            if (this.birthHasClick == true)
-            {
-                this.splitContainer2.Panel1Collapsed = false;
-            }
-            else
-            {
-                this.splitContainer2.Panel1Collapsed = true;
-            }
-            this.birthHasClick = !this.birthHasClick;
-        }
-
-        private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
-        {
-            this.splitContainer2.Panel1Collapsed = true;
-            this.labBirth.Text = this.monthCalendar1.SelectionStart.Date.ToShortDateString();
-        }
 
 
         #region 變更資料
@@ -215,13 +190,7 @@ namespace CSPCoffee
             }
         }
 
-        private void btnBirthUP_Click(object sender, EventArgs e)
-        {
-            var q = this.db.Members.Where(m => m.MemberID == f1.memberID).Select(m => m).FirstOrDefault();
-            q.MemberBirthDay = this.monthCalendar1.SelectionStart ;
-            db.SaveChanges();
-            MessageBox.Show("變更成功");
-        }
+
 
         private void btnBrowse_Click(object sender, EventArgs e)
         {
@@ -454,6 +423,8 @@ namespace CSPCoffee
             }
         }
 
+       
+
         private void txtPW_Leave(object sender, EventArgs e)
         {
             if (this.txtPW.Text == "")
@@ -463,6 +434,8 @@ namespace CSPCoffee
                 this.txtPW.UseSystemPasswordChar = false;
             }
         }
+
+      
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
@@ -485,7 +458,7 @@ namespace CSPCoffee
                 }
                 else //如果此人有編號為oID的訂單
                 {
-                    DialogResult dr = MessageBox.Show("確定刪除此訂單嗎？", "確認訊息",
+                    DialogResult dr = MessageBox.Show("確定取消此訂單嗎？", "確認訊息",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                     if (dr == DialogResult.Yes)
                     {
@@ -519,5 +492,8 @@ namespace CSPCoffee
                 }
             }
         }
+
+      
     }
+
 }

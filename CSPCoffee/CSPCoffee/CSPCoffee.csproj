@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>coffee.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
@@ -426,6 +429,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="coffee.ico" />
     <Content Include="CSPModel1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>CSPModel1.edmx</DependentUpon>
@@ -436,6 +440,9 @@
       <DependentUpon>CSPModel1.edmx</DependentUpon>
       <LastGenOutput>CSPModel1.cs</LastGenOutput>
     </Content>
+    <Content Include="Resources\logo.png" />
+    <None Include="Resources\pngegg %2817%29.png" />
+    <None Include="Resources\logo1.png" />
     <None Include="Resources\list-is-empty %281%291.png" />
     <None Include="Resources\survey.png" />
     <None Include="Resources\pngwing.com %281%29.png" />

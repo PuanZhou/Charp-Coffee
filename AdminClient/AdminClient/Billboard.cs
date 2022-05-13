@@ -66,11 +66,12 @@ namespace InsertNews
             }
             else if (tabControlNews.SelectedIndex == 1)
             {
-                this.dataGridView2.DataSource = this.db.Introduces.ToList();
+                this.dataGridView2.DataSource = this.db.Introduces.Where(n => n.IntroducesName != null).ToList();
             }
             else if (tabControlNews.SelectedIndex == 2)
             {
-                this.dataGridView3.DataSource = this.db.IntroducePhotos.ToList();
+                this.dataGridView3.DataSource = this.db.IntroducePhotos.Where(n => n.IntroduceID > 3).ToList();
+
             }
 
         }
@@ -82,7 +83,7 @@ namespace InsertNews
             this.db.Introduces.Add(introduce);
             this.db.SaveChanges();
             this.dataGridView2.DataSource = null;
-            this.dataGridView2.DataSource = this.db.Introduces.ToList();
+            this.dataGridView2.DataSource = this.db.Introduces.Where(n => n.IntroducesName != null).ToList();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -98,19 +99,30 @@ namespace InsertNews
             this.db.Introduces.Remove(q);
             this.db.SaveChanges();
             this.dataGridView2.DataSource = null;
-            this.dataGridView2.DataSource = this.db.Introduces.ToList();
+            this.dataGridView2.DataSource = this.db.Introduces.Where(n => n.IntroducesName != null).ToList();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MemoryStream ms = new MemoryStream();
-            this.pictureBox1.Image.Save(ms, ImageFormat.Jpeg);
-            byte[] bytes = ms.GetBuffer();
-            IntroducePhoto introducePhoto = new IntroducePhoto { IntroducePhotosID = int.Parse(this.textBox7.Text), IntroduceID = int.Parse(this.textBox6.Text), IntroducePhoto1 = bytes};
-            this.db.IntroducePhotos.Add(introducePhoto);
-            this.db.SaveChanges();
-            this.dataGridView3.DataSource = null;
-            this.dataGridView3.DataSource = this.db.IntroducePhotos.ToList();
+            if (int.TryParse(this.textBox6.Text, out int x))
+            {
+                bool q = db.Introduces.Any(n => n.IntroducesID == x && x > 3);
+                if (q)
+                {
+                    MemoryStream ms = new MemoryStream();
+                    this.pictureBox1.Image.Save(ms, ImageFormat.Jpeg);
+                    byte[] bytes = ms.GetBuffer();
+                    IntroducePhoto introducePhoto = new IntroducePhoto { IntroducePhotosID = int.Parse(this.textBox7.Text), IntroduceID = int.Parse(this.textBox6.Text), IntroducePhoto1 = bytes };
+                    this.db.IntroducePhotos.Add(introducePhoto);
+                    this.db.SaveChanges();
+                    this.dataGridView3.DataSource = null;
+                    this.dataGridView3.DataSource = this.db.IntroducePhotos.Where(n => n.IntroduceID > 3).ToList();
+                }
+                else
+                {
+                    return;
+                }
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -126,7 +138,7 @@ namespace InsertNews
             this.db.IntroducePhotos.Remove(q);
             this.db.SaveChanges();
             this.dataGridView3.DataSource = null;
-            this.dataGridView3.DataSource = this.db.IntroducePhotos.ToList();
+            this.dataGridView3.DataSource = this.db.IntroducePhotos.Where(n => n.IntroduceID > 3).ToList();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -150,7 +162,7 @@ namespace InsertNews
             Rectangle rectangle = tabControlNews.ClientRectangle;
 
             //標題框背景圖片
-            Image backImage = Resources.Moccasin;
+            Image backImage = Resources.vector_grunge_stained_background;
 
             //標籤文字對齊
             StringFormat stringFormat = new StringFormat();

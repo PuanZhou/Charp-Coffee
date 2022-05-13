@@ -276,7 +276,11 @@ namespace AdminClient
                     this.dbContext.PhotoDetails.Remove(photo.ToList()[i]);
                 }
                 this.dbContext.SaveChanges();
-                LoadDataToDataGridView();                
+                LoadDataToDataGridView();
+                int rowsCount = this.dataGridViewProducts.Rows.Count;
+                this.dataGridViewProducts.CurrentCell = this.dataGridViewProducts.Rows[CurrentRow].Cells[0];
+                ShowData();
+                ShowPictures();
             }
         }
 
@@ -399,14 +403,26 @@ namespace AdminClient
                 if (MessageBox.Show("確認刪除此商品 ?", "提醒", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
                     if (this.cbxCategoryName.Text == "咖啡")
-                    {                        
+                    {
+                        var que = this.dbContext.PhotoDetails.Any(p => p.ProductID == productID);
+                        if (que)
+                        {
+                            var quer = this.dbContext.PhotoDetails.FirstOrDefault(p => p.ProductID == productID);
+                            this.dbContext.PhotoDetails.Remove(quer);
+                        }
                         var q = this.dbContext.Coffees.Where(c => c.ProductID == productID).FirstOrDefault();
                         this.dbContext.Coffees.Remove(q);
                         var qu = this.dbContext.Products.Where(p => p.ProductID == productID).FirstOrDefault();
-                        this.dbContext.Products.Remove(qu);                        
+                        this.dbContext.Products.Remove(qu);
                     }
                     else
-                    {                        
+                    {
+                        var que = this.dbContext.PhotoDetails.Any(p => p.ProductID == productID);
+                        if (que)
+                        {
+                            var quer = this.dbContext.PhotoDetails.FirstOrDefault(p => p.ProductID == productID);
+                            this.dbContext.PhotoDetails.Remove(quer);
+                        }
                         var qu = this.dbContext.Products.Where(p => p.ProductID == productID).FirstOrDefault();
                         this.dbContext.Products.Remove(qu);
                     }
@@ -418,8 +434,13 @@ namespace AdminClient
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("此產品有出售紀錄，不可刪除產品資料");
             }
+        }
+
+        private void btnClearDescription_Click(object sender, EventArgs e)
+        {
+            this.txtDescription.Text = "";
         }
     }
 }

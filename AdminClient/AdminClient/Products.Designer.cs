@@ -78,15 +78,17 @@ namespace AdminClient
             // labTitle
             // 
             this.labTitle.AutoSize = true;
+            this.labTitle.BackColor = System.Drawing.Color.Transparent;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labTitle.Location = new System.Drawing.Point(885, 9);
             this.labTitle.Name = "labTitle";
             this.labTitle.Size = new System.Drawing.Size(133, 37);
             this.labTitle.TabIndex = 23;
-            this.labTitle.Text = "產品管理";
+            this.labTitle.Text = "商品管理";
             // 
             // grpProducts
             // 
+            this.grpProducts.BackColor = System.Drawing.Color.Transparent;
             this.grpProducts.Controls.Add(this.dataGridViewProducts);
             this.grpProducts.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.grpProducts.Location = new System.Drawing.Point(892, 90);
@@ -99,6 +101,7 @@ namespace AdminClient
             // dataGridViewProducts
             // 
             this.dataGridViewProducts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridViewProducts.BackgroundColor = System.Drawing.Color.Moccasin;
             this.dataGridViewProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.Linen;
@@ -118,6 +121,7 @@ namespace AdminClient
             // 
             // grpProductsCRUD
             // 
+            this.grpProductsCRUD.BackColor = System.Drawing.Color.Transparent;
             this.grpProductsCRUD.Controls.Add(this.cbxCategoryName);
             this.grpProductsCRUD.Controls.Add(this.btnClearPic);
             this.grpProductsCRUD.Controls.Add(this.flowLayoutPanelProductsPhoto);
@@ -186,6 +190,7 @@ namespace AdminClient
             this.btnClearDescription.TabIndex = 23;
             this.btnClearDescription.Text = "清除";
             this.btnClearDescription.UseVisualStyleBackColor = true;
+            this.btnClearDescription.Click += new System.EventHandler(this.btnClearDescription_Click);
             // 
             // btnDelete
             // 
@@ -370,6 +375,7 @@ namespace AdminClient
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.cbxCountry);
             this.groupBox1.Controls.Add(this.checkboxRainForest);
             this.groupBox1.Controls.Add(this.label2);
@@ -474,6 +480,8 @@ namespace AdminClient
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1888, 788);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpProductsCRUD);

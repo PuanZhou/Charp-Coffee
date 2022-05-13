@@ -52,6 +52,7 @@ namespace AdminClient
             // labTitle
             // 
             this.labTitle.AutoSize = true;
+            this.labTitle.BackColor = System.Drawing.Color.Transparent;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labTitle.Location = new System.Drawing.Point(885, 9);
             this.labTitle.Name = "labTitle";
@@ -141,6 +142,7 @@ namespace AdminClient
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.Location = new System.Drawing.Point(387, 64);
             this.label1.Name = "label1";
@@ -151,6 +153,7 @@ namespace AdminClient
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.Location = new System.Drawing.Point(546, 64);
             this.label2.Name = "label2";
@@ -175,6 +178,8 @@ namespace AdminClient
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1888, 702);
             this.Controls.Add(this.btnShowLine);
             this.Controls.Add(this.label2);

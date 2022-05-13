@@ -69,7 +69,7 @@ namespace CSPCoffee
                 dataGridView1.DataSource = db.Orders.Where(s => s.MemberID == id && s.OrderStateID == 1)
                     .Select(o => new { o.OrderDate, o.OrderAddress, o.Payment.Payment1, State = o.OrderState.OrderState1 }).ToList();
                 qFlag = 1;
-                labForD1.Text = "尚未出貨的訂單如下，請點擊查閱細節，若要退貨需由專人為您服務，請洽：(02)-2XXX-XXXX，謝謝";
+                labForD1.Text = "僅能取消尚未出貨的訂單，請點擊查閱細節，若要取消請到會員中心，訂單查詢中申請取消";
                 labForD1.Visible = true;
             }
             else if (q.Contains("購物"))

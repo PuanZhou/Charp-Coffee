@@ -98,6 +98,7 @@ namespace AdminClient
             // memberPhoneLabel
             // 
             memberPhoneLabel.AutoSize = true;
+            memberPhoneLabel.BackColor = System.Drawing.Color.Transparent;
             memberPhoneLabel.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             memberPhoneLabel.Location = new System.Drawing.Point(1088, 132);
             memberPhoneLabel.Name = "memberPhoneLabel";
@@ -108,6 +109,7 @@ namespace AdminClient
             // memberIDLabel
             // 
             memberIDLabel.AutoSize = true;
+            memberIDLabel.BackColor = System.Drawing.Color.Transparent;
             memberIDLabel.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             memberIDLabel.Location = new System.Drawing.Point(1088, 188);
             memberIDLabel.Name = "memberIDLabel";
@@ -118,6 +120,7 @@ namespace AdminClient
             // shoppingCarIDLabel
             // 
             shoppingCarIDLabel.AutoSize = true;
+            shoppingCarIDLabel.BackColor = System.Drawing.Color.Transparent;
             shoppingCarIDLabel.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             shoppingCarIDLabel.Location = new System.Drawing.Point(1086, 244);
             shoppingCarIDLabel.Name = "shoppingCarIDLabel";
@@ -128,6 +131,7 @@ namespace AdminClient
             // memberEMailLabel
             // 
             memberEMailLabel.AutoSize = true;
+            memberEMailLabel.BackColor = System.Drawing.Color.Transparent;
             memberEMailLabel.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             memberEMailLabel.Location = new System.Drawing.Point(1085, 300);
             memberEMailLabel.Name = "memberEMailLabel";
@@ -138,6 +142,7 @@ namespace AdminClient
             // memberPasswordLabel
             // 
             memberPasswordLabel.AutoSize = true;
+            memberPasswordLabel.BackColor = System.Drawing.Color.Transparent;
             memberPasswordLabel.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             memberPasswordLabel.Location = new System.Drawing.Point(1088, 356);
             memberPasswordLabel.Name = "memberPasswordLabel";
@@ -148,6 +153,7 @@ namespace AdminClient
             // memberNameLabel
             // 
             memberNameLabel.AutoSize = true;
+            memberNameLabel.BackColor = System.Drawing.Color.Transparent;
             memberNameLabel.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             memberNameLabel.Location = new System.Drawing.Point(1085, 412);
             memberNameLabel.Name = "memberNameLabel";
@@ -158,6 +164,7 @@ namespace AdminClient
             // blackListLabel
             // 
             blackListLabel.AutoSize = true;
+            blackListLabel.BackColor = System.Drawing.Color.Transparent;
             blackListLabel.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             blackListLabel.Location = new System.Drawing.Point(1088, 468);
             blackListLabel.Name = "blackListLabel";
@@ -168,6 +175,7 @@ namespace AdminClient
             // labTitle
             // 
             this.labTitle.AutoSize = true;
+            this.labTitle.BackColor = System.Drawing.Color.Transparent;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labTitle.Location = new System.Drawing.Point(885, 9);
             this.labTitle.Name = "labTitle";
@@ -177,6 +185,7 @@ namespace AdminClient
             // 
             // grpList
             // 
+            this.grpList.BackColor = System.Drawing.Color.Transparent;
             this.grpList.Controls.Add(this.btnSearch);
             this.grpList.Controls.Add(this.labSearchPhone);
             this.grpList.Controls.Add(this.txtSearch);
@@ -221,6 +230,7 @@ namespace AdminClient
             this.membersDataGridView.AllowUserToAddRows = false;
             this.membersDataGridView.AutoGenerateColumns = false;
             this.membersDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.membersDataGridView.BackgroundColor = System.Drawing.Color.Moccasin;
             this.membersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.membersDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -564,6 +574,7 @@ namespace AdminClient
             // 
             // blackListCheckBox
             // 
+            this.blackListCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.blackListCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.membersBindingSource, "BlackList", true));
             this.blackListCheckBox.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.blackListCheckBox.Location = new System.Drawing.Point(1239, 467);
@@ -571,7 +582,7 @@ namespace AdminClient
             this.blackListCheckBox.Size = new System.Drawing.Size(200, 24);
             this.blackListCheckBox.TabIndex = 45;
             this.blackListCheckBox.Text = "是(打勾)";
-            this.blackListCheckBox.UseVisualStyleBackColor = true;
+            this.blackListCheckBox.UseVisualStyleBackColor = false;
             // 
             // btnUpdate
             // 
@@ -590,6 +601,8 @@ namespace AdminClient
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1888, 702);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(memberPhoneLabel);

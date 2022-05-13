@@ -65,6 +65,8 @@ namespace AdminClient
             // 
             this.splitContainer1.Panel2.AutoScroll = true;
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.Moccasin;
+            this.splitContainer1.Panel2.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Size = new System.Drawing.Size(1904, 1041);
             this.splitContainer1.SplitterDistance = 296;
             this.splitContainer1.TabIndex = 2;

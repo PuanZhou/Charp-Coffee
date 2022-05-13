@@ -38,7 +38,6 @@ namespace CSPCoffee
             this.labMyLike = new System.Windows.Forms.Label();
             this.tabMemCen = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnBirthUP = new System.Windows.Forms.Button();
             this.btnAdressUP = new System.Windows.Forms.Button();
             this.btnNameUP = new System.Windows.Forms.Button();
             this.btnPWUP = new System.Windows.Forms.Button();
@@ -47,8 +46,6 @@ namespace CSPCoffee
             this.labNameErr = new System.Windows.Forms.Label();
             this.labPWErr = new System.Windows.Forms.Label();
             this.labEmailErr = new System.Windows.Forms.Label();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.btnPhotoUP = new System.Windows.Forms.Button();
             this.pboxPhoto = new System.Windows.Forms.PictureBox();
@@ -66,6 +63,10 @@ namespace CSPCoffee
             this.labPhoneErr = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.splitConOrder = new System.Windows.Forms.SplitContainer();
+            this.labOIDErr = new System.Windows.Forms.Label();
+            this.txtOrderID = new System.Windows.Forms.TextBox();
+            this.labOrderID = new System.Windows.Forms.Label();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.gridVOrder = new System.Windows.Forms.DataGridView();
             this.btnSearch = new System.Windows.Forms.Button();
             this.labOrdNull = new System.Windows.Forms.Label();
@@ -82,10 +83,6 @@ namespace CSPCoffee
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.fLayPLike = new System.Windows.Forms.FlowLayoutPanel();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.labOIDErr = new System.Windows.Forms.Label();
-            this.txtOrderID = new System.Windows.Forms.TextBox();
-            this.labOrderID = new System.Windows.Forms.Label();
-            this.btnCancel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -93,9 +90,6 @@ namespace CSPCoffee
             this.tableLayoutPanel1.SuspendLayout();
             this.tabMemCen.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPhoto)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitConOrder)).BeginInit();
@@ -232,7 +226,6 @@ namespace CSPCoffee
             // 
             this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.Color.Moccasin;
-            this.tabPage1.Controls.Add(this.btnBirthUP);
             this.tabPage1.Controls.Add(this.btnAdressUP);
             this.tabPage1.Controls.Add(this.btnNameUP);
             this.tabPage1.Controls.Add(this.btnPWUP);
@@ -241,7 +234,6 @@ namespace CSPCoffee
             this.tabPage1.Controls.Add(this.labNameErr);
             this.tabPage1.Controls.Add(this.labPWErr);
             this.tabPage1.Controls.Add(this.labEmailErr);
-            this.tabPage1.Controls.Add(this.splitContainer2);
             this.tabPage1.Controls.Add(this.btnBrowse);
             this.tabPage1.Controls.Add(this.btnPhotoUP);
             this.tabPage1.Controls.Add(this.pboxPhoto);
@@ -263,16 +255,6 @@ namespace CSPCoffee
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1896, 717);
             this.tabPage1.TabIndex = 0;
-            // 
-            // btnBirthUP
-            // 
-            this.btnBirthUP.Location = new System.Drawing.Point(1180, 464);
-            this.btnBirthUP.Name = "btnBirthUP";
-            this.btnBirthUP.Size = new System.Drawing.Size(59, 33);
-            this.btnBirthUP.TabIndex = 43;
-            this.btnBirthUP.Text = "變更";
-            this.btnBirthUP.UseVisualStyleBackColor = true;
-            this.btnBirthUP.Click += new System.EventHandler(this.btnBirthUP_Click);
             // 
             // btnAdressUP
             // 
@@ -362,28 +344,6 @@ namespace CSPCoffee
             this.labEmailErr.TabIndex = 36;
             this.labEmailErr.Text = "電子信箱不得為空";
             // 
-            // splitContainer2
-            // 
-            this.splitContainer2.Location = new System.Drawing.Point(910, 495);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(2);
-            this.splitContainer2.Name = "splitContainer2";
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.monthCalendar1);
-            this.splitContainer2.Size = new System.Drawing.Size(395, 170);
-            this.splitContainer2.SplitterDistance = 259;
-            this.splitContainer2.SplitterWidth = 3;
-            this.splitContainer2.TabIndex = 34;
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(0, 5);
-            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(7);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 33;
-            this.monthCalendar1.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateSelected);
-            // 
             // btnBrowse
             // 
             this.btnBrowse.Location = new System.Drawing.Point(283, 430);
@@ -419,13 +379,12 @@ namespace CSPCoffee
             this.labBirth.BackColor = System.Drawing.SystemColors.Window;
             this.labBirth.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labBirth.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labBirth.ForeColor = System.Drawing.Color.Black;
+            this.labBirth.ForeColor = System.Drawing.Color.Silver;
             this.labBirth.Location = new System.Drawing.Point(825, 467);
             this.labBirth.Name = "labBirth";
             this.labBirth.Size = new System.Drawing.Size(350, 26);
             this.labBirth.TabIndex = 9;
             this.labBirth.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.labBirth.Click += new System.EventHandler(this.labBirth_Click);
             // 
             // labBirthErr
             // 
@@ -593,8 +552,52 @@ namespace CSPCoffee
             this.splitConOrder.Panel2.AutoScroll = true;
             this.splitConOrder.Panel2.Controls.Add(this.gridVOrderDetail);
             this.splitConOrder.Size = new System.Drawing.Size(1890, 711);
-            this.splitConOrder.SplitterDistance = 903;
+            this.splitConOrder.SplitterDistance = 902;
             this.splitConOrder.TabIndex = 14;
+            // 
+            // labOIDErr
+            // 
+            this.labOIDErr.AutoSize = true;
+            this.labOIDErr.BackColor = System.Drawing.Color.Transparent;
+            this.labOIDErr.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labOIDErr.ForeColor = System.Drawing.Color.Crimson;
+            this.labOIDErr.Location = new System.Drawing.Point(742, 587);
+            this.labOIDErr.Name = "labOIDErr";
+            this.labOIDErr.Size = new System.Drawing.Size(99, 17);
+            this.labOIDErr.TabIndex = 20;
+            this.labOIDErr.Text = "請輸入訂單編號";
+            this.labOIDErr.Visible = false;
+            // 
+            // txtOrderID
+            // 
+            this.txtOrderID.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOrderID.Location = new System.Drawing.Point(636, 554);
+            this.txtOrderID.Name = "txtOrderID";
+            this.txtOrderID.Size = new System.Drawing.Size(99, 26);
+            this.txtOrderID.TabIndex = 19;
+            // 
+            // labOrderID
+            // 
+            this.labOrderID.AutoSize = true;
+            this.labOrderID.BackColor = System.Drawing.Color.Transparent;
+            this.labOrderID.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labOrderID.ForeColor = System.Drawing.Color.Crimson;
+            this.labOrderID.Location = new System.Drawing.Point(435, 557);
+            this.labOrderID.Name = "labOrderID";
+            this.labOrderID.Size = new System.Drawing.Size(201, 20);
+            this.labOrderID.TabIndex = 18;
+            this.labOrderID.Text = "請請入要取消的訂單編號：";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnCancel.Location = new System.Drawing.Point(741, 550);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(99, 34);
+            this.btnCancel.TabIndex = 17;
+            this.btnCancel.Text = "申請取消訂單";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // gridVOrder
             // 
@@ -753,50 +756,6 @@ namespace CSPCoffee
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // labOIDErr
-            // 
-            this.labOIDErr.AutoSize = true;
-            this.labOIDErr.BackColor = System.Drawing.Color.Transparent;
-            this.labOIDErr.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labOIDErr.ForeColor = System.Drawing.Color.Crimson;
-            this.labOIDErr.Location = new System.Drawing.Point(742, 587);
-            this.labOIDErr.Name = "labOIDErr";
-            this.labOIDErr.Size = new System.Drawing.Size(99, 17);
-            this.labOIDErr.TabIndex = 20;
-            this.labOIDErr.Text = "請輸入訂單編號";
-            this.labOIDErr.Visible = false;
-            // 
-            // txtOrderID
-            // 
-            this.txtOrderID.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOrderID.Location = new System.Drawing.Point(636, 554);
-            this.txtOrderID.Name = "txtOrderID";
-            this.txtOrderID.Size = new System.Drawing.Size(99, 26);
-            this.txtOrderID.TabIndex = 19;
-            // 
-            // labOrderID
-            // 
-            this.labOrderID.AutoSize = true;
-            this.labOrderID.BackColor = System.Drawing.Color.Transparent;
-            this.labOrderID.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labOrderID.ForeColor = System.Drawing.Color.Crimson;
-            this.labOrderID.Location = new System.Drawing.Point(435, 557);
-            this.labOrderID.Name = "labOrderID";
-            this.labOrderID.Size = new System.Drawing.Size(201, 20);
-            this.labOrderID.TabIndex = 18;
-            this.labOrderID.Text = "請請入要刪除的訂單編號：";
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnCancel.Location = new System.Drawing.Point(741, 550);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(99, 34);
-            this.btnCancel.TabIndex = 17;
-            this.btnCancel.Text = "申請取消訂單";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
             // FrmMemCenter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -816,9 +775,6 @@ namespace CSPCoffee
             this.tabMemCen.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboxPhoto)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.splitConOrder.Panel1.ResumeLayout(false);
@@ -863,13 +819,10 @@ namespace CSPCoffee
         private System.Windows.Forms.PictureBox pboxPhoto;
         private System.Windows.Forms.Button btnEmailUP;
         private System.Windows.Forms.Button btnBrowse;
-        private System.Windows.Forms.SplitContainer splitContainer2;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Label labAdressErr;
         private System.Windows.Forms.Label labNameErr;
         private System.Windows.Forms.Label labPWErr;
         private System.Windows.Forms.Label labEmailErr;
-        private System.Windows.Forms.Button btnBirthUP;
         private System.Windows.Forms.Button btnAdressUP;
         private System.Windows.Forms.Button btnNameUP;
         private System.Windows.Forms.Button btnPWUP;

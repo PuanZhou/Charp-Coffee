@@ -99,6 +99,8 @@ namespace InsertNews
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Moccasin;
+            this.tabPage1.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.monthCalendar2);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.textBox1);
@@ -125,6 +127,7 @@ namespace InsertNews
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(38, 284);
             this.label3.Name = "label3";
@@ -167,6 +170,7 @@ namespace InsertNews
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(38, 324);
             this.label2.Name = "label2";
@@ -185,6 +189,7 @@ namespace InsertNews
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(536, 46);
             this.label1.Name = "label1";
@@ -201,6 +206,7 @@ namespace InsertNews
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Moccasin;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -227,6 +233,8 @@ namespace InsertNews
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Moccasin;
+            this.tabPage2.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Controls.Add(this.label6);
@@ -270,6 +278,7 @@ namespace InsertNews
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(42, 334);
             this.label6.Name = "label6";
@@ -299,6 +308,7 @@ namespace InsertNews
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(500, 35);
             this.label5.Name = "label5";
@@ -309,6 +319,7 @@ namespace InsertNews
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(42, 276);
             this.label4.Name = "label4";
@@ -352,6 +363,8 @@ namespace InsertNews
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Moccasin;
+            this.tabPage3.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage3.Controls.Add(this.button7);
             this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.button6);
@@ -407,6 +420,7 @@ namespace InsertNews
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(37, 330);
             this.label7.Name = "label7";
@@ -425,6 +439,7 @@ namespace InsertNews
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(37, 272);
             this.label8.Name = "label8";
@@ -467,6 +482,7 @@ namespace InsertNews
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Location = new System.Drawing.Point(516, 35);
             this.pictureBox1.Name = "pictureBox1";

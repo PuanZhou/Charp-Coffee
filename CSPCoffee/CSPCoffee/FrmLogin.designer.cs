@@ -35,7 +35,6 @@ namespace CSPCoffee
             this.tabPLogin = new System.Windows.Forms.TabPage();
             this.linlabForget = new System.Windows.Forms.LinkLabel();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.pboxEye = new System.Windows.Forms.PictureBox();
             this.txtPW = new System.Windows.Forms.TextBox();
             this.txtAccount = new System.Windows.Forms.TextBox();
             this.labLogErr = new System.Windows.Forms.Label();
@@ -58,11 +57,11 @@ namespace CSPCoffee
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.btnCreate = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.label1 = new System.Windows.Forms.Label();
             this.timerEye = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pboxEye = new System.Windows.Forms.PictureBox();
             this.tabMem.SuspendLayout();
             this.tabPLogin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxEye)).BeginInit();
             this.tabPCreate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
@@ -72,6 +71,8 @@ namespace CSPCoffee
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxEye)).BeginInit();
             this.SuspendLayout();
             // 
             // tabMem
@@ -133,19 +134,6 @@ namespace CSPCoffee
             this.btnLogin.Text = "登入";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // pboxEye
-            // 
-            this.pboxEye.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pboxEye.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pboxEye.Image = ((System.Drawing.Image)(resources.GetObject("pboxEye.Image")));
-            this.pboxEye.Location = new System.Drawing.Point(366, 191);
-            this.pboxEye.Name = "pboxEye";
-            this.pboxEye.Size = new System.Drawing.Size(24, 24);
-            this.pboxEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxEye.TabIndex = 1;
-            this.pboxEye.TabStop = false;
-            this.pboxEye.Click += new System.EventHandler(this.pboxEye_Click);
             // 
             // txtPW
             // 
@@ -415,34 +403,51 @@ namespace CSPCoffee
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.label1);
+            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.AutoScroll = true;
             this.splitContainer1.Panel2.Controls.Add(this.tabMem);
             this.splitContainer1.Size = new System.Drawing.Size(1904, 1041);
             this.splitContainer1.SplitterDistance = 113;
             this.splitContainer1.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(876, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 69);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Logol";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // timerEye
             // 
             this.timerEye.Interval = 1000;
             this.timerEye.Tick += new System.EventHandler(this.timerEye_Tick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::CSPCoffee.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1904, 113);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pboxEye
+            // 
+            this.pboxEye.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pboxEye.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pboxEye.Image = ((System.Drawing.Image)(resources.GetObject("pboxEye.Image")));
+            this.pboxEye.Location = new System.Drawing.Point(366, 191);
+            this.pboxEye.Name = "pboxEye";
+            this.pboxEye.Size = new System.Drawing.Size(24, 24);
+            this.pboxEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxEye.TabIndex = 1;
+            this.pboxEye.TabStop = false;
+            this.pboxEye.Click += new System.EventHandler(this.pboxEye_Click);
             // 
             // FrmLogin
             // 
@@ -457,7 +462,6 @@ namespace CSPCoffee
             this.tabMem.ResumeLayout(false);
             this.tabPLogin.ResumeLayout(false);
             this.tabPLogin.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxEye)).EndInit();
             this.tabPCreate.ResumeLayout(false);
             this.tabPCreate.PerformLayout();
             this.splitContainer2.Panel1.ResumeLayout(false);
@@ -468,6 +472,8 @@ namespace CSPCoffee
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxEye)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -501,7 +507,7 @@ namespace CSPCoffee
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.Label labBirth;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linlabForget;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

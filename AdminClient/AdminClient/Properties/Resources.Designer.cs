@@ -83,6 +83,16 @@ namespace AdminClient.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap vector_grunge_stained_background {
+            get {
+                object obj = ResourceManager.GetObject("vector-grunge-stained-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap 驗證碼 {
             get {
                 object obj = ResourceManager.GetObject("驗證碼", resourceCulture);

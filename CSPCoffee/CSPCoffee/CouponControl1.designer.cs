@@ -163,7 +163,6 @@ namespace CSPCoffee
             this.labCouName.Name = "labCouName";
             this.labCouName.Size = new System.Drawing.Size(341, 80);
             this.labCouName.TabIndex = 0;
-            this.labCouName.Text = "母親節";
             this.labCouName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tLayPTime

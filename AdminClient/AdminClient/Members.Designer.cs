@@ -346,6 +346,7 @@ namespace AdminClient
             this.membersDataGridView.AllowUserToAddRows = false;
             this.membersDataGridView.AutoGenerateColumns = false;
             this.membersDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.membersDataGridView.BackgroundColor = System.Drawing.Color.Moccasin;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.Linen;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -543,6 +544,7 @@ namespace AdminClient
             // labTitle
             // 
             this.labTitle.AutoSize = true;
+            this.labTitle.BackColor = System.Drawing.Color.Transparent;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labTitle.Location = new System.Drawing.Point(885, 9);
             this.labTitle.Name = "labTitle";
@@ -552,6 +554,7 @@ namespace AdminClient
             // 
             // grpSearch
             // 
+            this.grpSearch.BackColor = System.Drawing.Color.Transparent;
             this.grpSearch.Controls.Add(this.btnSearch);
             this.grpSearch.Controls.Add(this.labSearchPhone);
             this.grpSearch.Controls.Add(this.txtSearch);
@@ -593,6 +596,7 @@ namespace AdminClient
             // 
             // grpUpdate
             // 
+            this.grpUpdate.BackColor = System.Drawing.Color.Transparent;
             this.grpUpdate.Controls.Add(this.labChangeValidCode);
             this.grpUpdate.Controls.Add(this.pictureBoxValidCode);
             this.grpUpdate.Controls.Add(this.label1);
@@ -759,6 +763,8 @@ namespace AdminClient
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1888, 702);
             this.Controls.Add(this.grpUpdate);
             this.Controls.Add(this.grpSearch);

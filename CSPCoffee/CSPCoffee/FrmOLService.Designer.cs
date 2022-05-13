@@ -55,7 +55,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(38, 127);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(462, 114);
+            this.dataGridView1.Size = new System.Drawing.Size(591, 114);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.Visible = false;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
@@ -67,13 +67,14 @@
             this.dataGridView2.Location = new System.Drawing.Point(38, 284);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(462, 114);
+            this.dataGridView2.Size = new System.Drawing.Size(591, 114);
             this.dataGridView2.TabIndex = 5;
             this.dataGridView2.Visible = false;
             // 
             // labForD1
             // 
             this.labForD1.AutoSize = true;
+            this.labForD1.BackColor = System.Drawing.Color.Transparent;
             this.labForD1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labForD1.Location = new System.Drawing.Point(34, 104);
             this.labForD1.Name = "labForD1";
@@ -85,6 +86,7 @@
             // labForD2
             // 
             this.labForD2.AutoSize = true;
+            this.labForD2.BackColor = System.Drawing.Color.Transparent;
             this.labForD2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labForD2.Location = new System.Drawing.Point(34, 261);
             this.labForD2.Name = "labForD2";
@@ -96,6 +98,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(28, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 12);
@@ -112,7 +115,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(548, 534);
+            this.BackgroundImage = global::CSPCoffee.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(767, 458);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labForD2);
             this.Controls.Add(this.labForD1);

@@ -92,15 +92,24 @@ namespace CSPCoffee
             MemoryStream ms = new MemoryStream(bytes);
             pictureBox1.Image = Image.FromStream(ms);
             //combobox
-
+            button1.Enabled = true;
             var stock = db.Products.Where(p => p.ProductID == productID).Select(p => p.Stock).ToArray();
             foreach (int a in stock)
             {
-                for (int i = 1; i <= a && i <= 10; i++)
+                if (a == 0)
                 {
-                    comboBox1.Items.Add(i);
+                    comboBox1.Text = "尚未有庫存";
+                    button1.Enabled = false;
                 }
-                if (stock.Length != 0) comboBox1.SelectedIndex = 0;//added
+                else 
+                {
+                    for (int i = 1; i <= a && i <= 10; i++)
+                    {
+                        comboBox1.Items.Add(i);
+                    }
+                    if (stock.Length != 0) comboBox1.SelectedIndex = 0;//added
+                }
+                
             }
         }
 

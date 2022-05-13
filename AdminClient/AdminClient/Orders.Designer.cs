@@ -70,6 +70,7 @@ namespace AdminClient
             // dataGridViewOrders
             // 
             this.dataGridViewOrders.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridViewOrders.BackgroundColor = System.Drawing.Color.Moccasin;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkOrange;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -106,6 +107,7 @@ namespace AdminClient
             // labTitle
             // 
             this.labTitle.AutoSize = true;
+            this.labTitle.BackColor = System.Drawing.Color.Transparent;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labTitle.Location = new System.Drawing.Point(885, 9);
             this.labTitle.Name = "labTitle";
@@ -115,6 +117,7 @@ namespace AdminClient
             // 
             // grpSearch
             // 
+            this.grpSearch.BackColor = System.Drawing.Color.Transparent;
             this.grpSearch.Controls.Add(this.btnDeleteCancelledOrders);
             this.grpSearch.Controls.Add(this.btnSelectAllOrders);
             this.grpSearch.Controls.Add(this.btnSearchOrderID);
@@ -307,6 +310,7 @@ namespace AdminClient
             // 
             // grpOrderDetails
             // 
+            this.grpOrderDetails.BackColor = System.Drawing.Color.Transparent;
             this.grpOrderDetails.Controls.Add(this.dataGridViewOrderDetails);
             this.grpOrderDetails.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.grpOrderDetails.Location = new System.Drawing.Point(860, 115);
@@ -319,6 +323,7 @@ namespace AdminClient
             // dataGridViewOrderDetails
             // 
             this.dataGridViewOrderDetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridViewOrderDetails.BackgroundColor = System.Drawing.Color.Moccasin;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.DarkOrange;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -364,6 +369,7 @@ namespace AdminClient
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.pictureBoxProduct);
             this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox1.Location = new System.Drawing.Point(1361, 115);
@@ -378,6 +384,8 @@ namespace AdminClient
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
+            this.BackgroundImage = global::AdminClient.Properties.Resources.vector_grunge_stained_background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1888, 702);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpOrderDetails);

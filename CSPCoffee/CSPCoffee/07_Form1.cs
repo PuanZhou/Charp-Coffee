@@ -25,7 +25,7 @@ namespace CSPCoffee
             CreatBanner();
             LoadTreeNode();
             SujectTxt();
-            
+
         }
 
         //Banner==========================================
@@ -95,18 +95,19 @@ namespace CSPCoffee
                 pic.Location = new Point(pic.Location.X + dX, pic.Location.Y);
                 if (pic.Location.X + pic.Width <= label5.Location.X + label5.Width)
                 {
-                    pic.Location = new Point(pic.Location.X + pds.Length * (pic.Width+5), pic.Location.Y);
+                    pic.Location = new Point(pic.Location.X + pds.Length * (pic.Width + 5), pic.Location.Y);
                 }
                 if (pic.Location.X > label6.Location.X)
                 {
-                    pic.Location = new Point(pic.Location.X - pds.Length * (pic.Width+5), pic.Location.Y);
+                    pic.Location = new Point(pic.Location.X - pds.Length * (pic.Width + 5), pic.Location.Y);
                 }
             }
         }
         //TreeView=============================================
         private void LoadTreeNode()
         {
-            var qc = db.Coffees.Select(n => new {
+            var qc = db.Coffees.Select(n => new
+            {
                 cnN = n.Country.Continent.ContinentName,
                 coN = n.Country.CountryName,
                 roN = n.Roasting.RoastingName,
@@ -136,7 +137,7 @@ namespace CSPCoffee
                 node1.Name = t1;
                 foreach (string t2 in qc.Where(s => s.cnN == t1).Select(n => n.coN).Distinct())
                 {
-                    TreeNode node2 = node1.Nodes.Add($"{t2}({qc.Where(n => n.coN == t2).Select(n => n.coN).Distinct().Count()}種咖啡)");
+                    TreeNode node2 = node1.Nodes.Add($"{t2}({qc.Where(n => n.coN == t2).Select(n => n.coN).Count()}種咖啡)");
                     node2.Name = t2;
                     //foreach (string t3 in qc.Where(s => s.coN == t2).Select(n => n.cfN).Distinct())
                     //{
@@ -208,9 +209,19 @@ namespace CSPCoffee
             TreeNode node = e.Node;
             flowLayoutPanel1.Controls.Clear();
 
-            var qc = db.Products.Select(n => new {rfN = n.Coffee.RainForest,cnN = n.Coffee.Country.Continent.ContinentName
-                ,coN = n.Coffee.Country.CountryName,roN = n.Coffee.Roasting.RoastingName,prN = n.Coffee.Process.ProcessName
-                ,paN = n.Coffee.Package.PackageName,cfN = n.Coffee.CoffeeName,cgN = n.Category.CategoriesName,pID = n.ProductID
+            var qc = db.Products.Select(n => new
+            {
+                rfN = n.Coffee.RainForest,
+                cnN = n.Coffee.Country.Continent.ContinentName
+                ,
+                coN = n.Coffee.Country.CountryName,
+                roN = n.Coffee.Roasting.RoastingName,
+                prN = n.Coffee.Process.ProcessName
+                ,
+                paN = n.Coffee.Package.PackageName,
+                cfN = n.Coffee.CoffeeName,
+                cgN = n.Category.CategoriesName,
+                pID = n.ProductID
             }).Where(c => (c.cnN == node.Name || c.coN == node.Name || c.roN == node.Name ||
                 c.prN == node.Name || c.paN == node.Name || c.cfN == node.Name || c.cgN == node.Name)).Select(c => new { c.pID }).ToList();
 
@@ -219,17 +230,17 @@ namespace CSPCoffee
             {
                 pdc[i] = new PDcontrol(qc[i].pID, memberID);
 
-                
-                    if (List.Count != 0 && List.Contains(qc[i].pID) )
-                    {
-                        pdc[i].button2.Text = "取消比較";
-                        pdc[i].button1.Visible = true;
-                    }
-                    else
-                    {
-                        pdc[i].button2.Text = "加入比較";
-                        pdc[i].button1.Visible = false;
-                    }
+
+                if (List.Count != 0 && List.Contains(qc[i].pID))
+                {
+                    pdc[i].button2.Text = "取消比較";
+                    pdc[i].button1.Visible = true;
+                }
+                else
+                {
+                    pdc[i].button2.Text = "加入比較";
+                    pdc[i].button1.Visible = false;
+                }
                 flowLayoutPanel1.Controls.Add(pdc[i]);
             }
         }
@@ -392,7 +403,8 @@ namespace CSPCoffee
             var qp = db.Products.AsEnumerable().Select(n => new { poN = n.ProductName, caN = n.Category.CategoriesName, pID = n.ProductID })
                 .Where(c => fuzzy(c.poN) || fuzzy(c.caN)).Select(c => new { c.pID });
 
-            var qc = db.Coffees.AsEnumerable().Select(n => new {
+            var qc = db.Coffees.AsEnumerable().Select(n => new
+            {
                 cnN = n.Country.Continent.ContinentName
                 ,
                 coN = n.Country.CountryName,
@@ -555,10 +567,11 @@ namespace CSPCoffee
             foreach (var item in q)
             {
 
-                var q2 = from n in db.IntroducePhotos
+                var q2 = (from n in db.IntroducePhotos.AsEnumerable()
                          where n.IntroduceID == item.introID
-                         select n.IntroducePhoto1;
-                byte[] bts = q2.ToList()[1];
+                         select n.IntroducePhoto1).ElementAtOrDefault(1); ;
+                if (q2 == null) return;
+                byte[] bts = q2;
                 System.IO.MemoryStream ms = new System.IO.MemoryStream(bts);
 
                 IntroduceUsControl IUC = new IntroduceUsControl();
@@ -713,10 +726,12 @@ namespace CSPCoffee
                 FrmLogin flog = new FrmLogin();
                 flog.ShowDialog();
             }
-            else 
+            else
             {
                 this.memberID = 0;
-
+                disBanner();
+                CreatBanner();
+                flowLayoutPanel1.Controls.Clear();
                 btnMem.BackgroundImage = Resources._3580168;
             }
         }
@@ -726,7 +741,7 @@ namespace CSPCoffee
             if (this.memberID != 0)
             {
                 FrmMemCenter fmc = new FrmMemCenter();
-                fmc.Show();
+                fmc.ShowDialog();
             }
             else
             {
@@ -738,7 +753,7 @@ namespace CSPCoffee
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var q = this.db.CouponDetails.Any(x => x.MemberID == memberID);
+            var q = this.db.CouponDetails.Any(x => x.MemberID == memberID && x.CouponID == 3);
 
             if (q)
             {

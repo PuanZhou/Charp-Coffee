@@ -44,7 +44,7 @@ namespace CSPCoffee
         decimal Total1 = 0;
         CarControl1[] x;
         PDcontrol[] y;
-        string Fee = "80";  //運送方式
+        string Fee = "宅配";  //運送方式
         string Pay;  //付款方式
         int PayID;  //選擇了哪個付款方式
         int CouponName;     //CouponName
@@ -73,6 +73,8 @@ namespace CSPCoffee
         //抓該會員的購物明細
         private void LoadCar()
         {
+            Total1 = 0;
+            DELE = 0;
             this.flowLayoutPanel1.Controls.Clear();
             Total1 = 0;
             var q = from s in db.ShoppingCarDetails
@@ -115,6 +117,12 @@ namespace CSPCoffee
                 this.db.ShoppingCarDetails.Remove(product);
                 DELE = DELE + decimal.Parse(source.theTextOnlabelCount, System.Globalization.NumberStyles.Currency);
 
+
+                CouponName = 0;
+                this.labeldiscount.Text = "0";
+                //this.labelTotal1.Text = (Total1 - CouponName).ToString("#0.");
+
+
                 Total1 = Total1 - decimal.Parse(source.theTextOnlabelCount, System.Globalization.NumberStyles.Currency);
                 this.labelfirstcount.Text = Total1.ToString("#0.");
                 this.labelTotal1.Text = (int.Parse(labelfirstcount.Text) - CouponName).ToString("#0.");
@@ -141,6 +149,9 @@ namespace CSPCoffee
                            select p).FirstOrDefault();
             if (product == null) return;
             product.Quantity = (source.theTextOnComboBox1 + 1);
+            CouponName = 0;
+            this.labeldiscount.Text = "0";
+            this.labelTotal1.Text = (Total1 - CouponName).ToString("#0.");
         }
         //收合折價卷
         private void button2_Click(object sender, EventArgs e)
@@ -150,31 +161,38 @@ namespace CSPCoffee
         //使用折價卷
         private void button7_Click(object sender, EventArgs e)
         {
-            int d = listBox1.SelectedIndex;
-            CouponName = (int)Coupon1Money[d];
-            CouponID = Coupon1ID[d].ToString();
-            if (CouponName==50&& decimal.Parse(labelfirstcount.Text) < 500)
+            if (listBox1.SelectedItem == null)
             {
-                MessageBox.Show("未滿500不可使用");
+                MessageBox.Show("尚未使用優惠卷");
             }
-            else if (CouponName == 100 && decimal.Parse(labelfirstcount.Text) < 1000)
+            else if (listBox1.Items != null)
             {
-                MessageBox.Show("未滿1000不可使用");
+                int d = listBox1.SelectedIndex;
+                CouponName = (int)Coupon1Money[d];
+                CouponID = Coupon1ID[d].ToString();
+                if (CouponName == 50 && decimal.Parse(labelfirstcount.Text) < 500)
+                {
+                    MessageBox.Show("未滿500不可使用");
+                    CouponName = 0;
+                }
+                else if (CouponName == 100 && decimal.Parse(labelfirstcount.Text) < 1000)
+                {
+                    MessageBox.Show("未滿1000不可使用");
+                    CouponName = 0;
+                }
+                else if (CouponName == 200 && decimal.Parse(labelfirstcount.Text) < 550)
+                {
+                    MessageBox.Show("未滿550不可使用");
+                    CouponName = 0;
+                }             
+                else
+                {
+                    MessageBox.Show("使用成功!");
+                    this.labeldiscount.Text = $"-{CouponName}";
+                    this.labelTotal1.Text = (Total1 - CouponName).ToString("#0.");
+                }
             }
-            else if (CouponName == 200 && decimal.Parse(labelfirstcount.Text) < 550)
-            {
-                MessageBox.Show("未滿550不可使用");
-            }
-            //if (decimal.Parse(labelfirstcount.Text) < CouponName)
-            //{
-            //    MessageBox.Show("不可使用，因折抵金額已小於結帳金額");
-            //}
-            else
-            {
-                MessageBox.Show("使用成功!");
-                this.labeldiscount.Text = $"-{CouponName}";
-                this.labelTotal1.Text = (Total1 - CouponName).ToString("#0.");
-            }
+           
         }
         //推薦加購商品
         private void LoadAddproducts()
